@@ -19,7 +19,7 @@ if torch.cuda.is_available():
     torch.cuda.manual_seed_all(seed)
 
 # Load the YOLO model
-model = YOLO(r"C:\Users\PMLS\Downloads\best.pt")  # Update with your model path
+model = YOLO(r"your_model_path")  # Update with your model path
 
 # Define color codes for objects
 colors = {
